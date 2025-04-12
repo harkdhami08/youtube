@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c95f2df211.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="container">
+        <nav>
+          <!-- Left: Logo -->
+          <div class="nav-logo">
+            <i class="fa-solid fa-bars"></i>
+            <img src="logo.png" alt="YouTube Logo" />
+          </div>
+
+          <!-- Center: Search Bar -->
+          <div class="nav-search">
+            <div class="search">
+              <input type="text" placeholder="Search" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="mic">
+              <i class="fa-solid fa-microphone"></i>
+            </div>
+          </div>
+
+          <!-- Right: Buttons -->
+          <div class="nav-btns">
+            <div class="create-btn">
+              <i class="fa-solid fa-plus"></i> Create
+            </div>
+            <div class="bell">
+              <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="account">H</div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Sidebar -->
+    <section class="sidebar">
+      <div class="side-container">
+        <!-- Home, Shorts, Subscriptions -->
+        <div class="side-one">
+          <div class="home one">
+            <i class="fa-solid fa-house"></i>
+            <p>Home</p>
+          </div>
+          <div class="shorts one">
+            <i class="fa-brands fa-youtube"></i>
+            <p>Shorts</p>
+          </div>
+          <div class="subscriptions one">
+            <i class="fa-brands fa-youtube"></i>
+            <p>Subscriptions</p>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <!-- You section -->
+        <div class="side-one">
+          <div class="you">
+            <span class="you-para">You</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="home one">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <p>History</p>
+          </div>
+          <div class="shorts one">
+            <i class="fa-solid fa-list-check"></i>
+            <p>Playlists</p>
+          </div>
+          <div class="subscriptions one">
+            <i class="fa-solid fa-clock"></i>
+            <p>Watch later</p>
+          </div>
+          <div class="subscriptions one">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <p>Liked videos</p>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <!-- Subscriptions section -->
+        <div class="side-one">
+          <div class="you">
+            <span class="you-para">Subscriptions</span>
+          </div>
+          <div class="home one">
+            <div class="account">H</div>
+            <p>Channel Name</p>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <!-- Explore section -->
+        <div class="side-one">
+          <div class="you">
+            <span class="you-para">Explore</span>
+          </div>
+          <div class="home one">
+            <i class="fa-solid fa-fire"></i>
+            <p>Trending</p>
+          </div>
+          <div class="shorts one">
+            <i class="fa-solid fa-music"></i>
+            <p>Music</p>
+          </div>
+          <div class="subscriptions one">
+            <i class="fa-solid fa-gamepad"></i>
+            <p>Gaming</p>
+          </div>
+          <div class="subscriptions one">
+            <i class="fa-solid fa-trophy"></i>
+            <p>Sports</p>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <!-- More from YouTube section -->
+        <div class="side-one">
+          <div class="you">
+            <span class="you-para">More from YouTube</span>
+          </div>
+          <div class="home one">
+            <i class="fa-brands fa-youtube red-music"></i>
+            <p>YouTube Premium</p>
+          </div>
+          <div class="shorts one">
+            <i class="fa-solid fa-music red-music"></i>
+            <p>YouTube Studio</p>
+          </div>
+          <div class="subscriptions one">
+            <i class="fa-solid fa-circle-play red-music"></i>
+            <p>YouTube Music</p>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <!-- Settings and Help -->
+        <div class="side-one">
+          <div class="home one">
+            <i class="fa-solid fa-gear"></i>
+            <p>Settings</p>
+          </div>
+          <div class="shorts one">
+            <i class="fa-solid fa-flag"></i>
+            <p>Report history</p>
+          </div>
+          <div class="subscriptions one">
+            <i class="fa-solid fa-circle-info"></i>
+            <p>Help</p>
+          </div>
+          <div class="subscriptions one">
+            <i class="fa-solid fa-paper-plane"></i>
+            <p>Send feedback</p>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <!-- Footer info -->
+        <div class="side-one">
+          <div class="home one">
+            <p>About Press Copyright Contact us Creator Advertise Developers</p>
+          </div>
+          <div class="shorts one">
+            <p>
+              Terms Privacy Policy & Safety How YouTube works Test new features
+            </p>
+          </div>
+        </div>
+        <div class="side-one">
+          <div class="home one">
+            <p>© 2025 Google LLC</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Section -->
+    <main>
+      <div class="main-nav-bar">
+        <div class="main-nav">
+          <div><a href="#" id="all">All</a></div>
+          <div><a href="#">Music</a></div>
+          <div><a href="#">Mixes</a></div>
+          <div><a href="#">Source code</a></div>
+          <div><a href="#">Computer Programming</a></div>
+          <div><a href="#">Gaming</a></div>
+          <div><a href="#">Live</a></div>
+          <div><a href="#">Playlist</a></div>
+          <div><a href="#">Hindi Song</a></div>
+          <div><a href="#">Channel</a></div>
+        </div>
+      </div>
+
+      <div class="videos">
+        <!-- Sample video-card, repeated manually for now -->
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+        <div class="video-card">
+          <video
+            src="BlinkIt Clone Using MERN Stack _ Full-Stack Project Overview.mp4"
+            controls
+          ></video>
+          <h4>HTML CSS Complete</h4>
+          <p>PW Skills</p>
+        </div>
+
+        <!-- Repeat as needed -->
+      </div>
+    </main>
+  </body>
+</html>
